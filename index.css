@@ -1,0 +1,45 @@
+.pink {
+  color: hotpink;
+  font-size: 3em;
+}
+
+body {
+  background-color: rgba(171, 215, 228, 0.349);
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+
+#root {
+  background-color: whitesmoke;
+  border-radius: 5em;
+  border: black 1px solid;
+  display: flex;
+  justify-content: center;
+}
+
+img,
+h2,
+address {
+  margin: auto;
+  text-shadow: rgba(255, 105, 180, 0.616) 1px 0 15px;
+}
+
+img {
+  width: 300px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0em 2em;
+}
+
+section > * {
+  padding: 0.5em 0em;
+}
+
+a {
+  color: blueviolet;
+}
